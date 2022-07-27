@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(187, 187, 187);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 2;  
+    width: 50%;
+    height: 50px;
+    box-shadow: 0px 5px 5px #888888ab;
+    background-color: white;
+    border-style: none none none solid;
+    border-radius: 2px;
+    transition: all 0.5s;
+}
+
+.red{
+    border-color: rgb(199, 0, 0);
+}
+
+.red:hover{
+    box-shadow: 0px 0px 10px 6px #a0a0a0cc;    
+    cursor: pointer;
+}
+
+.green{
+    border-color: rgb(0, 109, 0);
+}
+.green:hover{
+    box-shadow: 0px 0px 10px 6px #a0a0a0cc;    
+    cursor: pointer;
+}
+
+.blue{
+    border-color: rgb(1, 1, 199);
+}
+
+.blue:hover{
+    background-color: rgb(131, 131, 255);
+    cursor: pointer;
+}
